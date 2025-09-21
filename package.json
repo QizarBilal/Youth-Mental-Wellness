@@ -1,0 +1,18 @@
+{
+  "name": "youth-mental-wellness-demo",
+  "version": "1.0.0",
+  "description": "AI-powered mental wellness platform for youth - Demo Application",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["mental-health", "youth", "ai", "wellness", "demo"],
+  "author": "GenAI Exchange Hackathon",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
